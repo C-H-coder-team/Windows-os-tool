@@ -29,9 +29,10 @@ void Display_Localtime()
 	while (true)
 	{
 		gotoxy(10, 0);
-		time(&t);
-	//	data_time = localtime(&t);    //Dev中使用原版 
-		localtime_s(data_time, &t);    //VS2010中优化了localtime函数为localtime_s()函数 -> Security 
+		time(&t); 
+		data_time = localtime(&t);    //Dev中使用原版  
+		//localtime_s (data_time, &t);     // VS2010中优化了localtime函数为localtime_s()函数 -> Security  
+		
 		if (data_time->tm_sec >= 10)
 		{
 			cout << data_time->tm_hour << ":" << data_time->tm_min << ":" << data_time->tm_sec;

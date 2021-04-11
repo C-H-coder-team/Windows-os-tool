@@ -7,6 +7,7 @@
 
 #include<bitset>//STL位集容器
 
+#include<conio.h> 
 
 #include<cctype>//C字符处理
 
