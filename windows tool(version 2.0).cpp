@@ -5,7 +5,7 @@
 #include"snake_main.h"
 #include"plane_main.h"
 #include"guess_number.h"
-//头文件、命名空间调用
+//脥路脦脛录镁隆垄脙眉脙没驴脮录盲碌梅脫脙
 int main()
 {
 	cout << "welcome to this os tools!" << endl
