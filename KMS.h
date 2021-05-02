@@ -2,7 +2,7 @@
 #ifndef KMS_H
 #define KMS_H
 #include"stdc++.h"
-string KMS()
+bool KMS()
 {
 	
 		short xt;
@@ -72,7 +72,7 @@ string KMS()
 
 	}
 
-	return "over";
+	return true;
 }
 
 #endif // !KMS_H
