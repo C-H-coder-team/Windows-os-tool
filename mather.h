@@ -62,7 +62,7 @@ static long random(unsigned int start,unsigned int end)
 static short stringlong(string input)
 {
 	short length;
-	length = input.length();
+	length = input.size();
 	return length;
 }
 #endif

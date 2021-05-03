@@ -10,14 +10,16 @@
 int main()
 {
 	
-	cout << "welcome to this os tools!" << endl
-		<< "1.activate the system by kms." << endl
-		<< "2.system power tools." << endl
-		<< "3.the time of now." << endl
-		<< "4.install some moudles of python" << endl
-		<< "5.play some games." << endl
-		<< "6.some maths function." << endl
-		<< "0.informaiton of the coder." << endl;
+	{
+		cout << "welcome to this os tools!" << endl
+			<< "1.activate the system by kms." << endl
+			<< "2.system power tools." << endl
+			<< "3.the time of now." << endl
+			<< "4.install some moudles of python" << endl
+			<< "5.play some games." << endl
+			<< "6.some maths function." << endl
+			<< "0.informaiton of the coder." << endl;
+	}
 	short i;
 	cin >> i;
 	system("cls");
@@ -114,8 +116,8 @@ int main()
 			string str;
 			short totel;
 			cout << "ÊäÈë×Ö·û´®£º";
-			scanf_s("%s", str);
-			totel = stringlong(str);
+			cin >> str;
+			totel = str.size();
 			system("cls");
 			cout << "totel: " << totel;
 			cout << endl;
@@ -127,11 +129,12 @@ int main()
 	{
 		cout << "coder:fanjun" << endl;
 		Sleep(500);
-		cout << "version:v3.0 release" << endl;
+		cout << "version:v3.1 release" << endl;
 		Sleep(500);
-		cout << "program time: 2021/05/02" << endl;
+		cout << "program time: 2021/05/03" << endl;
 		Sleep(1000);
 		system("pause");
 	}
+
 	return 0;
 }
